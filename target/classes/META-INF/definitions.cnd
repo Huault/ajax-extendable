@@ -1,8 +1,0 @@
-<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
-<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
-
-[jmix:extendable_opt] mixin
- extends = jnt:contentList
- - inital_size (long) = 3
- - extend_step (long) = 3
-
