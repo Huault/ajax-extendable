@@ -18,7 +18,7 @@
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 
-<%-- --%>
+
 <c:if test="${renderContext.editMode}">
 	<c:forEach items="${currentNode.nodes}" var="child">
 		<template:module node="${child}" />
