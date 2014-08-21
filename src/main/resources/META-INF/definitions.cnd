@@ -2,8 +2,8 @@
 <jnt = 'http://www.jahia.org/jahia/nt/1.0'>
 
 [jmix:extendable_list] > jmix:templateMixin mixin
-  extends = jmix:list,jnt:area
+ extends = jmix:list,jnt:area
  itemtype = layout
- - inital_size (long) = 3
- - extend_step (long) = 3
+ - inital_list_size (long) = 3
+ - extend_list_step (long) = 3
 

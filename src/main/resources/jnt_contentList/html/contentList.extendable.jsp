@@ -27,13 +27,13 @@
 </c:if>
 
 <c:if test="${not renderContext.editMode}">
-	<jcr:nodeProperty name="inital_size" node="${currentNode}" var="inital_size_value"/>
+	<jcr:nodeProperty name="inital_list_size" node="${currentNode}" var="inital_size_value"/>
 	<c:set var="inital_size" value="${inital_size_value.long}" />
 	<c:if test="${empty inital_size}">
 		<c:set var="inital_size" value="3" />
 	</c:if>
 	
-	<jcr:nodeProperty name="extend_step" node="${currentNode}" var="extend_step_value"/>
+	<jcr:nodeProperty name="extend_list_step" node="${currentNode}" var="extend_step_value"/>
 	<c:set var="extend_step" value="${extend_step_value.long}" />
 	<c:if test="${empty extend_step}">
 		<c:set var="extend_step" value="3" />
