@@ -18,6 +18,7 @@
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 
+<fmt:message key="loading" var="loading" />
 
 <c:if test="${renderContext.editMode}">
 	<c:forEach items="${currentNode.nodes}" var="child">
@@ -70,7 +71,7 @@
 						step: ${extend_step}
 					};
 					
-					$divMore.empty().append("loading...");
+					$divMore.empty().append("${loading}");
 					$.post( url, form_data,	function( response ) {
 						var output="";
 						var count = 0;
