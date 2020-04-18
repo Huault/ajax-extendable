@@ -20,8 +20,6 @@
 
 <fmt:message key="loading" var="loading" />
 
-DEBUG
-
 <c:if test="${renderContext.editMode}">
 	<c:forEach items="${currentNode.nodes}" var="child">
 		<template:module node="${child}" />
