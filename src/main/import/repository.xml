@@ -10,7 +10,7 @@
          <sources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
                   jcr:primaryType="jnt:moduleVersionFolder"
                   j:staticMountPointProviderKey="module-ajax-extendable-1.0-SNAPSHOT">
-            <README.txt jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:editableFile"/>
+            <README.txt jcr:primaryType="jnt:editableFile"/>
          </sources>
          <portlets jcr:primaryType="jnt:portletFolder"/>
          <files jcr:primaryType="jnt:folder"/>
