@@ -85,8 +85,8 @@
   <name>Ajax Extendable</name>
   <description>This is the custom module (Ajax Extendable) for running on a Digital Factory server.</description>
   <scm>
-    <connection>scm:git:git@github.com:Huault/ajax-extendable.git</connection>
-    <developerConnection>scm:git:git@github.com:Huault/ajax-extendable.git</developerConnection>
+    <connection>scm:git:https://github.com/Huault/ajax-extendable.git</connection>
+    <developerConnection>scm:git:https://github.com/Huault/ajax-extendable.git</developerConnection>
   </scm>
   <repositories>
     <repository>
